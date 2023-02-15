@@ -178,14 +178,10 @@ transition: 1s ease;
     text-align: center;
     
     
-    .h1{
-    margin-bottom: 10px;
-    color: #fff;;
-    }
+    h1{color: #fff;}
+    h5{color: #fff;}
 }
-
-h1{color: #fff;}
-h5{color: #fff;}
+    
 
 /*Final Titulo*/
 
@@ -201,11 +197,11 @@ h5{color: #fff;}
     text-align: center;
     
 .card{
-    width: 300px;
-    height: 350px;
-    background: rgba(0, 0, 0, 0);
-    border-radius: 24px 0px;
-    margin: auto;
+    width: 400px;
+    height: 400px;
+    background: rgba(212, 9, 9, 0);
+    border-radius: 50px 100px;
+    margin: 30px;
     max-width: 1000px;
     flex-wrap: wrap;
     justify-content: center;    
@@ -215,17 +211,17 @@ h5{color: #fff;}
     
     width: 250px;
     height: 250px;
-    border-radius: 75%;
+    border-radius: 40%;
+    justify-content: center;   
 
 }
-.card ul {
-    margin: 0 30px;
-}
-}
-/*Final Cards qsomos*/
 p{color: #fff;}
 h2{color: #fff;}
 h3{color: #fff;}
+}
+
+/*Final Cards qsomos*/
+
 
 
 
@@ -245,13 +241,14 @@ h3{color: #fff;}
 
 
 /* Roda-pé */
-.footer {
-    font-size: 25px;
-    width: 25px;
+.rodape {
+
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
+    margin: 10px auto;
+    text-align: center;
+    
+    h5{color: red;}
+
 }
 /* Final Roda-pé */
 
