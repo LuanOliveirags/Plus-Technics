@@ -153,8 +153,8 @@ header {
   text-align: center;
 }
 .qsomos .card {
-  width: 250px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background: rgba(212, 9, 9, 0);
   border-radius: 50px 100px;
   margin: 30px;
@@ -188,12 +188,9 @@ header {
 
 /* Roda-pé */
 #footer {
+  width: 25px;
   text-align: center;
-  font: size 2rem;
-  border-top: 0;
-  margin-top: 0;
-  padding: 1.2rem;
-  right: 10px;
+  justify-content: center;
 }
 #footer h5 {
   color: red;
