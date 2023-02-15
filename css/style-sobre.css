@@ -135,10 +135,16 @@ header {
   margin: 10px auto;
   text-align: center;
 }
-.titulo h1 {
+.titulo .h1 {
+  margin-bottom: 10px;
   color: #fff;
 }
-.titulo h5 {
+
+h1 {
+  color: #fff;
+}
+
+h5 {
   color: #fff;
 }
 
@@ -153,11 +159,11 @@ header {
   text-align: center;
 }
 .qsomos .card {
-  width: 400px;
-  height: 400px;
-  background: rgba(212, 9, 9, 0);
-  border-radius: 50px 100px;
-  margin: 30px;
+  width: 300px;
+  height: 350px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 24px 0px;
+  margin: auto;
   max-width: 1000px;
   flex-wrap: wrap;
   justify-content: center;
@@ -165,8 +171,10 @@ header {
 .qsomos .card-image {
   width: 250px;
   height: 250px;
-  border-radius: 40%;
-  justify-content: center;
+  border-radius: 75%;
+}
+.qsomos .card ul {
+  margin: 0 30px;
 }
 .qsomos p {
   color: #fff;
@@ -178,7 +186,6 @@ header {
   color: #fff;
 }
 
-/*Final Cards qsomos*/
 .whats {
   position: fixed;
   bottom: 10px;
@@ -187,13 +194,13 @@ header {
 }
 
 /* Roda-pé */
-#footer {
+.footer {
+  font-size: 25px;
   width: 25px;
   text-align: center;
-  justify-content: center;
-}
-#footer h5 {
-  color: red;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=style-sobre.css.map */
