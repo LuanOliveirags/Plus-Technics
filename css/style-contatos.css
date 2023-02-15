@@ -132,7 +132,7 @@ header {
 .contato {
   text-align: center;
   background-color: rgba(248, 248, 255, 0);
-  height: 50px;
+  height: 60vh;
 }
 
 .contato .card {

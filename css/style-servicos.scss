@@ -174,9 +174,6 @@ li{
 }
 
 
-
-
-
 .header-content{
 max-width: 1000px;  
 margin: 10px auto;
@@ -190,6 +187,44 @@ margin-bottom: 10px;
 
 
 /*Final Titulo*/
+
+/*Card info serivos 0*/
+.servicos{
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    height: 85vh;
+    
+.card{
+    width: 250px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 24px 0px;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.card-image{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.card ul {
+    margin: 30px;
+}
+}
+/*Final Card 0*/
+
+
+
+
+
+
+
+
+
 
 .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
 
