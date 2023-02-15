@@ -187,12 +187,15 @@ header {
 }
 
 /* Roda-pé */
-.rodape {
+#footer {
   text-align: center;
-  margin: 10px auto;
-  text-align: center;
+  font: size 2rem;
+  border-top: 0;
+  margin-top: 0;
+  padding: 1.2rem;
+  right: 10px;
 }
-.rodape h5 {
+#footer h5 {
   color: red;
 }
 

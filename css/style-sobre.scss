@@ -241,13 +241,17 @@ h3{color: #fff;}
 
 
 /* Roda-pé */
-.rodape {
+#footer {
 
-    text-align: center;
-    margin: 10px auto;
-    text-align: center;
-    
-    h5{color: red;}
+
+text-align: center;
+font: size 2rem;
+border-top: 0;
+margin-top: 0;
+padding: 1.2rem;
+right:10px;
+
+h5{color: red;}
 
 }
 /* Final Roda-pé */
