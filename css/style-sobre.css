@@ -8,6 +8,7 @@ body {
   align-items: center;
 }
 
+/*Inicio Titulo*/
 header {
   width: 100%;
   background-color: #101010;
@@ -128,17 +129,67 @@ header {
     right: 0;
   }
 }
-.header-content {
+/*Final Menu*/
+.titulo {
   max-width: 1000px;
   margin: 10px auto;
   text-align: center;
 }
-
-.header-content h1 {
+.titulo .h1 {
   margin-bottom: 10px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+h5 {
+  color: #fff;
 }
 
 /*Final Titulo*/
+/*Card info qsomos*/
+.qsomos {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 100%;
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+.qsomos .card {
+  width: 300px;
+  height: 350px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 24px 0px;
+  margin: auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.qsomos .card-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 75%;
+}
+.qsomos .card ul {
+  margin: 0 30px;
+}
+
+/*Final Cards qsomos*/
+p {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+
 .whats {
   position: fixed;
   bottom: 10px;
@@ -148,53 +199,12 @@ header {
 
 /* Roda-pé */
 .footer {
-  background-color: rgb(48, 46, 46);
-  background-size: 100%;
-  color: ghostwhite;
-  padding: 30px;
+  font-size: 25px;
+  width: 25px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px;
 }
 
-/* Final Roda-pé */
-/* Color */
-p {
-  color: ghostwhite;
-}
-
-h1 {
-  color: ghostwhite;
-}
-
-h2 {
-  color: ghostwhite;
-}
-
-h3 {
-  color: ghostwhite;
-}
-
-h4 {
-  color: ghostwhite;
-}
-
-h5 {
-  color: ghostwhite;
-}
-
-form {
-  color: ghostwhite;
-}
-
-label {
-  color: ghostwhite;
-}
-
-li {
-  color: ghostwhite;
-}
-
-ul {
-  color: ghostwhite;
-}
-
-/* Final  Color *//*# sourceMappingURL=style-sobre.css.map */
+/* Final Roda-pé *//*# sourceMappingURL=style-sobre.css.map */
