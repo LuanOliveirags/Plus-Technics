@@ -95,12 +95,12 @@ transition: 1s ease;
     height: 10%;
     border-radius: 10px;
 
-    background-color: #fff;
+    background-color: #58006e;
     transition: 1s ease;
 }
 
 #hamburguer:checked ~ label .hamburguer::after{
-    transform: rotate(225deg);
+    transform: rotate(224deg);
     top: 70%;
     left: 10%;
 }
