@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100%;
   background-color: #1a1a1a;
   display: flex;
   justify-content: center;
@@ -145,48 +145,44 @@ header h4 {
     right: 0;
   }
 }
-.header-content {
-  max-width: 1000px;
-  margin: 10px auto;
-  text-align: center;
-}
-
-.header-content h1 {
-  margin-bottom: 10px;
-}
-
 /*Final Titulo*/
 /*Card info serivos 0*/
+/*Card info contatos*/
 .cards {
   text-align: center;
-  background: rgba(0, 0, 0, 0);
-  height: 80vh;
-  width: 250px;
-  height: 350px;
-  background: rgb(253, 4, 4);
+  background-color: rgba(105, 105, 196, 0);
+  height: 73vh;
+}
+.cards .cards {
+  width: 400px;
+  height: 400px;
+  background: rgba(201, 30, 30, 0) center;
   border-radius: 24px 0px;
+  margin: auto;
   max-width: 1000px;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  height: 73vh;
+  text-align: center;
+}
+.cards .card-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.cards p {
+  color: ghostwhite;
+}
+.cards h1 {
+  color: ghostwhite;
 }
 .cards h2 {
   color: ghostwhite;
 }
-.cards .card-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  flex-direction: row;
-}
-.cards .card-text p {
+.cards h3 {
   color: ghostwhite;
 }
-.cards .card-image2 {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-.cards .card-text2 p {
+.cards h4 {
   color: ghostwhite;
 }
 
