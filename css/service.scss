@@ -1,5 +1,7 @@
 
 body{
+    margin: 0px;
+    flex-direction: column;
 
     width: 100%;
     height: 100vh;
@@ -9,7 +11,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
     padding: 0px;
 }
 
@@ -177,10 +178,12 @@ li{
 
 /*Seleção*/
 .qsomos{
+flex-direction:row;
 max-width: 1000px;  
 margin: 10px auto;
 text-align: center;
 color: #fff;
+flex-direction:row;
 
 .card-image{
     width: 350px;
@@ -191,6 +194,7 @@ color: #fff;
     max-width: 800px;
     flex-wrap: wrap;
     justify-content: center;   
+
 
 }
 
@@ -203,3 +207,13 @@ color: #fff;
 /*Final do whatsapp*/
 /* Roda-pé */
 
+#rodape {
+    width: 100%;
+    background-color: rgba(46, 48, 48, 0.938);
+    background-size: 100%;
+    color: #eee;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+}
+/* Final Roda-pé */
