@@ -6,19 +6,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-/*Inicio Titulo*/
 header {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header p {
+  color: ghostwhite;
+}
+header h1 {
+  color: ghostwhite;
+}
+header h4 {
+  color: ghostwhite;
+}
+header .header-content {
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.navbar {
   width: 100%;
   background-color: #101010;
-  padding: 15px 10px;
+  padding: 5px 10px;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 
-.navbar {
+.navbar-list {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -187,6 +208,7 @@ h5 {
   color: #fff;
 }
 
+/* Roda-pé */
 .whats {
   position: fixed;
   bottom: 10px;
@@ -194,14 +216,15 @@ h5 {
   z-index: 9999;
 }
 
-/* Roda-pé */
 .footer {
-  font-size: 25px;
-  width: 25px;
+  width: 100%;
+  background-color: #101010;
+  background-size: 100%;
   text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin: 5px;
+  padding: 5px 10px;
+}
+.footer h5 {
+  color: #58006e;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=style-sobre.css.map */

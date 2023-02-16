@@ -6,18 +6,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 header {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header p {
+  color: ghostwhite;
+}
+header h1 {
+  color: ghostwhite;
+}
+header h4 {
+  color: ghostwhite;
+}
+
+.navbar {
   width: 100%;
   background-color: #101010;
-  padding: 15px 10px;
+  padding: 5px 10px;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 
-.navbar {
+.navbar-list {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -132,12 +149,11 @@ header {
 .contato {
   text-align: center;
   background-color: rgba(248, 248, 255, 0);
-  height: 75vh;
+  height: 73vh;
 }
-
 .contato .card {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background: rgba(0, 0, 0, 0) center;
   border-radius: 24px 0px;
   margin: auto;
@@ -145,18 +161,31 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .contato .card-image {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
-
 .contato .card ul {
   margin: 0 30px;
 }
+.contato p {
+  color: ghostwhite;
+}
+.contato h1 {
+  color: ghostwhite;
+}
+.contato h2 {
+  color: ghostwhite;
+}
+.contato h3 {
+  color: ghostwhite;
+}
+.contato h4 {
+  color: ghostwhite;
+}
 
-/*Final Cards contatos*/
+/* Roda-pé */
 .whats {
   position: fixed;
   bottom: 10px;
@@ -164,58 +193,15 @@ header {
   z-index: 9999;
 }
 
-/* Roda-pé */
 .footer {
-  background-color: rgb(255, 0, 0);
-  color: #eee;
-  padding: 10px;
-  text-align: center;
   width: 100%;
-  padding: 15px 10px;
-  position: fixed;
-  top: 0;
+  background-color: rgba(16, 16, 16, 0);
+  background-size: 100%;
+  text-align: center;
+  padding: 5px 10px;
+}
+.footer h5 {
+  color: #58006e;
 }
 
-/* Final Roda-pé */
-/* Color */
-p {
-  color: ghostwhite;
-}
-
-h1 {
-  color: ghostwhite;
-}
-
-h2 {
-  color: ghostwhite;
-}
-
-h3 {
-  color: ghostwhite;
-}
-
-h4 {
-  color: ghostwhite;
-}
-
-h5 {
-  color: ghostwhite;
-}
-
-form {
-  color: ghostwhite;
-}
-
-label {
-  color: ghostwhite;
-}
-
-li {
-  color: ghostwhite;
-}
-
-ul {
-  color: ghostwhite;
-}
-
-/* Final  Color *//*# sourceMappingURL=style-contatos.css.map */
+/* Final Roda-pé *//*# sourceMappingURL=style-contatos.css.map */

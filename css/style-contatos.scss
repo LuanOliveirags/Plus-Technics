@@ -1,40 +1,53 @@
 
-    body{
+body{
 
-        width: 100%;
-        height: 100vh;
+    width: 100%;
+    height: 100vh;
 
-        background-color: #1a1a1a;
+    background-color: #1a1a1a;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
 }
 
 
 header{
-    width: 100%;
-    
+height: 100%;
 
-    background-color: #101010;
+display: flex;
+justify-content: center;
+align-items: center;
 
-    padding: 15px 10px;
+p{color:ghostwhite; }
+h1{color: ghostwhite;}  
+h4{color: ghostwhite;}
 
-    position: fixed;
-    top: 0;
-    z-index: 999;
 }
 
 
 .navbar{
-    max-width: 1200px;
-    margin: 0 auto;
+width: 100%;
+background-color: #101010;
 
-    padding: 0 20px ;
+padding: 5px 10px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+position: fixed;
+top: 0;
+z-index: 999;
+}
+.navbar-list{ 
+max-width: 1200px;
+margin: 0 auto;
+
+padding: 0 20px ;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo{
@@ -179,12 +192,12 @@ transition: 1s ease;
 .contato{
     text-align: center;
     background-color: rgba(248, 248, 255, 0);
-    height: 75vh;
-}
+    height: 73vh;
+     
 
-.contato .card{
-    width: 350px;
-    height: 350px;
+.card{
+    width: 400px;
+    height: 400px;
     background: rgba(0, 0, 0, 0) center;
     border-radius: 24px 0px;
     margin: auto;
@@ -193,44 +206,38 @@ transition: 1s ease;
     justify-content: center;  
 }
 
-.contato .card-image{
+.card-image{
     
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
-.contato .card ul {
+.card ul {
     margin: 0 30px;
 }
-/*Final Cards contatos*/
-
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
-
-/* Roda-pé */
-.footer {
-    background-color: rgb(255, 0, 0);
-    color: #eee;
-    padding: 10px;
-    text-align: center;
-
-    width: 100%;
     
-    padding: 15px 10px;
-    position: fixed;
-    top: 0;
-
-}
-/* Final Roda-pé */
-
-/* Color */
 p{color:ghostwhite; }
 h1{color: ghostwhite;}
 h2{color:ghostwhite; }
 h3{color: ghostwhite;}
 h4{color: ghostwhite;}
-h5{color:ghostwhite; }
-form{color:ghostwhite;}
-label{color: ghostwhite;}
-li{color: ghostwhite;}
-ul{color: ghostwhite;}
-/* Final  Color */
+}
+
+
+
+/* Roda-pé */
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+
+.footer {
+    width: 100%;
+    background-color: #10101000;
+    background-size: 100%;
+    
+
+    text-align: center;
+    padding: 5px 10px;
+
+
+    h5{color:#58006e;}
+}
+/* Final Roda-pé */

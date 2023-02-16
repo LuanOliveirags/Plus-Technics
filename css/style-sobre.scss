@@ -1,40 +1,59 @@
 
-    body{
+body{
 
-        width: 100%;
-        height: 100vh;
+    width: 100%;
+    height: 100vh;
 
-        background-color: #1a1a1a;
+    background-color: #1a1a1a;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
 }
 
-/*Inicio Titulo*/
+
 header{
-    width: 100%;
+height: calc( 100vh - 100px);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+p{color:ghostwhite; }
+h1{color: ghostwhite;}  
+h4{color: ghostwhite;}
+
+.header-content{
+    max-width: 1000px;  
+    margin: 10px auto;
+    text-align: center;
     
-
-    background-color: #101010;
-
-    padding: 15px 10px;
-
-    position: fixed;
-    top: 0;
-    z-index: 999;
+    }
 }
 
 
 .navbar{
-    max-width: 1200px;
-    margin: 0 auto;
+width: 100%;
+background-color: #101010;
 
-    padding: 0 20px ;
+padding: 5px 10px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+position: fixed;
+top: 0;
+z-index: 999;
+}
+.navbar-list{ 
+max-width: 1200px;
+margin: 0 auto;
+
+padding: 0 20px ;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo{
@@ -242,18 +261,20 @@ h3{color: #fff;}
 
 
 
+/* Roda-pé */
 .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
 
-
-
-/* Roda-pé */
 .footer {
-    font-size: 25px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
+width: 100%;
+background-color: #101010;
+background-size: 100%;
+
+
+text-align: center;
+padding: 5px 10px;
+
+
+h5{color:#58006e;}
 }
 /* Final Roda-pé */
 
