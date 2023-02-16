@@ -2,42 +2,22 @@
 body{
 
     width: 100%;
-    min-height: 100%;
-
+    height: 100vh;
 
     background-color: #1a1a1a;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    
+    margin: 0px;
+    padding: 0px;
 }
 
-
+/*Menu e logo*/
 header{
-height: calc( 100vh - 100px);
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-p{color:ghostwhite; }
-h1{color: ghostwhite;}  
-h4{color: ghostwhite;}
-
-.header-content{
-    max-width: 1000px;  
-    margin: 10px auto;
-    text-align: center;
-    
-    }
-}
-
-
-.navbar{
 width: 100%;
+
+
 background-color: #101010;
 
 padding: 5px 10px;
@@ -46,7 +26,9 @@ position: fixed;
 top: 0;
 z-index: 999;
 }
-.navbar-list{ 
+
+
+.navbar{
 max-width: 1200px;
 margin: 0 auto;
 
@@ -56,7 +38,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-
 
 .logo{
 width: 50px;
@@ -116,12 +97,12 @@ width: 40%;
 height: 10%;
 border-radius: 10px;
 
-background-color: #58006e;
+background-color: #fff;
 transition: 1s ease;
 }
 
 #hamburguer:checked ~ label .hamburguer::after{
-transform: rotate(224deg);
+transform: rotate(225deg);
 top: 70%;
 left: 10%;
 }
@@ -142,7 +123,6 @@ left: 15%;
 list-style: none;
 
 
-
 display: flex;
 align-items: center;
 
@@ -161,12 +141,12 @@ li{
     }
 }
 }
-
+/*Final do Menu e logo*/
+/*Responsividade mobile*/
 @media screen and (max-width: 980px){
 .hamburguer {
     display: block;
     z-index: 999;
-    
 }
 
 .menu{
@@ -180,7 +160,7 @@ li{
     background-color: #222;
 
     width:100% ;
-    max-width: 150px;
+    max-width: 100px;
 
     padding: 100px 20px;
 
@@ -190,26 +170,25 @@ li{
 
 .menu.active{
     right: 0;
-    
 }
 
 
 
 }
+/*Final da Responsividade mobile*/
 
-
-
-/* Roda-pé */
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
-
-.footer {
-margin-top: auto;
-background-color: #101010;
-
-
+/*Seleção*/
+.header-content{
+max-width: 1000px;  
+margin: 10px auto;
 text-align: center;
-
-
-h5{color:#58006e;}
+color: #fff;
 }
-/* Final Roda-pé */
+/*Final da Seleção*/
+
+/*whatsapp*/
+
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+/*Final do whatsapp*/
+/* Roda-pé */
+
