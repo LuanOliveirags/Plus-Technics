@@ -139,7 +139,6 @@ header {
   max-width: 1000px;
   margin: 10px auto;
   text-align: center;
-  color: #fff;
 }
 .qsomos .card-image {
   width: 350px;
@@ -148,6 +147,10 @@ header {
   max-width: 800px;
   flex-wrap: wrap;
   justify-content: center;
+}
+.qsomos .card-text {
+  text-align: center;
+  color: #fff;
 }
 
 /*Final da Seleção*/
