@@ -1,7 +1,5 @@
 
 body{
-    margin: 0px;
-    padding: 0px;
 
     width: 100%;
     height: 100vh;
@@ -11,8 +9,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Menu e logo*/
@@ -178,50 +176,21 @@ li{
 /*Final da Responsividade mobile*/
 
 /*Seleção*/
-.services{
-    display: flex;
-    text-align: center;
-    flex-direction: row; 
-    color: #fff;
-    justify-content: center; 
-
-
+.contato{
+max-width: 1000px;  
+margin: 10px auto;
+text-align: center;
+color: #fff;
 
 .card-image{
     width: 350px;
     height: 351px;
+    background: rgba(0, 0, 0, 0);
     border-radius: 45px ;
     margin: auto;
     max-width: 800px;
     flex-wrap: wrap;
     justify-content: center;   
-
-    .card-text{
-
-        text-align: center;
-        justify-content: center; 
-
-    }
-    
-
-
-}
-.card-image2{
-    width: 350px;
-    height: 351px;
-    border-radius: 50px ;
-    margin: auto;
-    max-width: 800px;
-    flex-wrap: wrap;
-    justify-content: center;   
-
-    .card-text2{
-
-        text-align: center;
-        justify-content: center; 
-
-    }
-    
 
 
 }
@@ -235,16 +204,3 @@ li{
 /*Final do whatsapp*/
 /* Roda-pé */
 
-#rodape {
-    flex-shrink: 0;
-    width: 100%;
-    background-color: #101010;
-    background-size: 100%;
-    color: #eee;
-    padding: 5px;
-    text-align: center;
-    margin: 0px;
-
-    
-}
-/* Final Roda-pé */
