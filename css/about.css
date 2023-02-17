@@ -13,7 +13,7 @@ body {
 /*Menu e logo*/
 header {
   width: 100%;
-  background-color: #101010;
+  background-color: rgba(16, 16, 16, 0);
   padding: 5px 10px;
   position: fixed;
   top: 0;
