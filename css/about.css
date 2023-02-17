@@ -145,7 +145,7 @@ header {
   width: 350px;
   height: 351px;
   background: rgba(0, 0, 0, 0);
-  border-radius: 45px;
+  border-radius: 75px;
   margin: auto;
   max-width: 800px;
   flex-wrap: wrap;
@@ -162,4 +162,4 @@ header {
 }
 
 /*Final do whatsapp*/
-/* Roda-pé *//*# sourceMappingURL=sobre.css.map */
+/* Roda-pé *//*# sourceMappingURL=about.css.map */
