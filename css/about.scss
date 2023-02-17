@@ -180,7 +180,7 @@ li{
 max-width: 1000px;  
 margin: 10px auto;
 text-align: center;
-color: #fff;
+
 
 .card-image{
     width: 350px;
@@ -191,8 +191,12 @@ color: #fff;
     max-width: 800px;
     flex-wrap: wrap;
     justify-content: center;   
+}
 
+.card-text{
 
+    text-align: center;
+    color: #fff;
 }
 
 }
