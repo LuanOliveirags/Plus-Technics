@@ -144,7 +144,7 @@ header {
   width: 350px;
   height: 351px;
   background: rgba(0, 0, 0, 0);
-  border-radius: 75px;
+  border-radius: 100px;
   margin: auto;
   max-width: 800px;
   flex-wrap: wrap;

@@ -143,7 +143,7 @@ header {
 .qsomos .card-image {
   width: 350px;
   height: 351px;
-  border-radius: 75px;
+  border-radius: 100px;
   max-width: 800px;
   flex-wrap: wrap;
   justify-content: center;
