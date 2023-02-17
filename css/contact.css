@@ -135,13 +135,13 @@ header {
 }
 /*Final da Responsividade mobile*/
 /*Seleção*/
-.contato {
+.qsomos {
   max-width: 1000px;
   margin: 10px auto;
   text-align: center;
   color: #fff;
 }
-.contato .card-image {
+.qsomos .card-image {
   width: 350px;
   height: 351px;
   background: rgba(0, 0, 0, 0);
