@@ -110,7 +110,7 @@ header {
 
 /*Final do Menu e logo*/
 /*Responsividade mobile*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 780px) {
   .hamburguer {
     display: block;
     z-index: 999;
@@ -136,17 +136,13 @@ header {
 /*Seleção*/
 .services {
   text-align: center;
-  flex-direction: row;
-  color: #fff;
+  color: #ffffff;
   justify-content: center;
 }
 .services .card-image {
-  width: 350px;
-  height: 351px;
-  border-radius: 45px;
-  margin: auto;
-  max-width: 800px;
-  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
   justify-content: center;
 }
 .services .card-image .card-text {
@@ -154,12 +150,9 @@ header {
   justify-content: center;
 }
 .services .card-image2 {
-  width: 350px;
-  height: 351px;
-  border-radius: 50px;
-  margin: auto;
-  max-width: 800px;
-  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
   justify-content: center;
 }
 .services .card-image2 .card-text2 {
