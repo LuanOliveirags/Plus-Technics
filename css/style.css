@@ -83,7 +83,7 @@ header {
 }
 
 #hamburguer:checked ~ label .hamburguer::before {
-  transform: rotate(-180deg);
+  transform: rotate(-185deg);
   width: 70%;
   height: 10%;
   top: 45%;
