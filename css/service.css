@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-  margin: 0px;
-  padding: 0px;
+  width: 100%;
+  height: 100vh;
   background-color: #1a1a1a;
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*Menu e logo*/
@@ -110,7 +110,7 @@ header {
 
 /*Final do Menu e logo*/
 /*Responsividade mobile*/
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 980px) {
   .hamburguer {
     display: block;
     z-index: 999;
@@ -134,30 +134,22 @@ header {
 }
 /*Final da Responsividade mobile*/
 /*Seleção*/
-.services {
+.qsomos {
+  max-width: 1000px;
+  margin: 10px auto;
   text-align: center;
-  color: #ffffff;
-  justify-content: center;
 }
-.services .card-image {
+.qsomos .card-image {
   width: 300px;
   height: 300px;
   border-radius: 100px;
+  max-width: 800px;
+  flex-wrap: wrap;
   justify-content: center;
 }
-.services .card-image .card-text {
+.qsomos .card-text {
   text-align: center;
-  justify-content: center;
-}
-.services .card-image2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 100px;
-  justify-content: center;
-}
-.services .card-image2 .card-text2 {
-  text-align: center;
-  justify-content: center;
+  color: #fff;
 }
 
 /*Final da Seleção*/
