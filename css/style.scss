@@ -143,7 +143,7 @@ li{
         padding: 10px 15px;
         text-decoration: none;
         color: #555;
-        transition: 0.5s ease;
+        transition: 0.5s ease; 
         &:hover{
             color: #fff;
         }
@@ -179,6 +179,7 @@ li{
 
 .menu.active{
     right: 0;
+
 }
 
 
