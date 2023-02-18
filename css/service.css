@@ -12,8 +12,8 @@ body {
 /*Menu e logo*/
 header {
   width: 100%;
-  background-color: rgba(16, 16, 16, 0);
-  padding: 5px 10px;
+  background-color: #101010;
+  padding: 7px 10px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -119,14 +119,14 @@ header {
     position: fixed;
     top: 0;
     right: -100%;
-    height: 50vh;
+    height: 52vh;
     margin: 0;
     background-color: rgba(99, 1, 102, 0.2039215686);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
     flex-direction: column;
-    transition: 0.5s ease;
+    transition: 0.7s ease;
   }
   .menu.active {
     right: 0;
