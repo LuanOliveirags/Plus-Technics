@@ -68,38 +68,38 @@ display: none;
 
 
 .hamburguer:after {
-content: '';
-
-
-position: absolute;
-top: 35%;
-left: 15%;
-
-width: 70%;
-height: 10%;
-border-radius: 10px;
-
-background-color: #fff;
-
-transition: 1s ease;
-
-}
-
-.hamburguer:before {
-content: '';
-
-
-position: absolute;
-top: 60%;
-left: 45%;
-
-width: 40%;
-height: 10%;
-border-radius: 10px;
-
-background-color: #fff;
-transition: 1s ease;
-}
+    content: '';
+    
+    
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    
+    width: 70%;
+    height: 9%;
+    border-radius: 10px;
+    
+    background-color: #fff;
+    
+    transition: 1s ease;
+    
+    }
+    
+    .hamburguer:before {
+    content: '';
+    
+    
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    
+    background-color: #4c0277;
+    transition: 1s ease;
+    }
 
 #hamburguer:checked ~ label .hamburguer::after{
     transform: rotate(720deg);
