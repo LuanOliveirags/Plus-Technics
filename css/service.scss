@@ -101,21 +101,21 @@ transition: 1s ease;
 }
 
 #hamburguer:checked ~ label .hamburguer::after{
-transform: rotate(225deg);
-top: 70%;
-left: 10%;
-}
-
-#hamburguer:checked ~ label .hamburguer::before{
-transform: rotate(-400deg);
-
-width: 70%;
-height: 10%;
-
-top: 45%;
-left: 15%;
-
-}
+    transform: rotate(720deg);
+    top: 70%;
+    left: 15%;
+    }
+    
+    #hamburguer:checked ~ label .hamburguer::before{
+    transform: rotate(-180deg);
+    
+    width: 70%;
+    height: 10%;
+    
+    top: 45%;
+    left: 15%;
+    
+    }
 
 .menu{
 
