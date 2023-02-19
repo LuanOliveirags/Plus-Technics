@@ -123,7 +123,7 @@ header {
     right: 0;
     height: 100vh;
     margin: 0;
-    background-color: rgba(99, 1, 102, 0.2039215686);
+    background-color: #101010;
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
