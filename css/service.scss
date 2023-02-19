@@ -157,10 +157,11 @@ li{
 .menu{
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
 
 
-    height: 100vh;    margin: 0;
+    height: 100vh;
+    margin: 0;
     background-color: #63016634;
 
     width:100% ;
@@ -169,13 +170,11 @@ li{
     padding: 100px 20px;
 
     flex-direction: column;
-    transition: 0.7s ease;
-    
-
+    transition: 0.5s ease;
 }
 
 .menu.active{
-    right: 0;
+    right: -100%;
 
 }
 

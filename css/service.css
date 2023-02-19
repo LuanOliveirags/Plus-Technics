@@ -118,7 +118,7 @@ header {
   .menu {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     height: 100vh;
     margin: 0;
     background-color: rgba(99, 1, 102, 0.2039215686);
@@ -126,10 +126,10 @@ header {
     max-width: 100px;
     padding: 100px 20px;
     flex-direction: column;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
   }
   .menu.active {
-    right: 0;
+    right: -100%;
   }
 }
 /*Final da Responsividade mobile*/

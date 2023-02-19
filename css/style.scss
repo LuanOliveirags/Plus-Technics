@@ -2,7 +2,6 @@
 body  *{
 
     box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 0, 0.514);
-    text-align: center;
 }   
 */
 
@@ -164,7 +163,7 @@ li{
 .menu{
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
 
 
     height: 100vh;
@@ -181,7 +180,7 @@ li{
 }
 
 .menu.active{
-    right: 0;
+    right: -100%;
 
 }
 
