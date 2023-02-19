@@ -134,7 +134,7 @@ li{
         display: block;
         padding: 10px 15px;
         text-decoration: none;
-        color: #555;
+        color: #fff;
         transition: 0.5s ease;
         &:hover{
             color: #fff;
@@ -181,7 +181,7 @@ li{
 max-width: 1000px;  
 
 text-align: center;
-margin: 50vh 100px;
+margin: 20vh 100px;
 
 .card-image{
     width: 300px;
@@ -212,7 +212,7 @@ margin: 50vh 100px;
     background-color: #1a1a1a;
     background-size: 100%;
     color: #eee;
-    padding: 5px;
+    padding: auto;
     text-align: center;
     margin-block-start: auto;
 

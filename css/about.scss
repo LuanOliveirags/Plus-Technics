@@ -11,6 +11,7 @@ body{
     align-items: center;
     margin: 0px;
     padding: 0px;
+    flex-direction: column;
 }
 
 /*Menu e logo*/
@@ -177,7 +178,7 @@ li{
 /*Seleção*/
 .qsomos{
 max-width: 1000px;  
-margin: 10px auto;
+margin: 20vh 100px;
 text-align: center;
 
 
@@ -205,5 +206,19 @@ text-align: center;
 
 .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
 /*Final do whatsapp*/
+
 /* Roda-pé */
 
+#rodape {
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+    background-size: 100%;
+    color: #eee;
+    padding: auto;
+    text-align: center;
+    margin-block-start: auto;
+
+    
+}
+/* Final Roda-pé */

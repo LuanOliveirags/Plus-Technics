@@ -8,6 +8,7 @@ body {
   align-items: center;
   margin: 0px;
   padding: 0px;
+  flex-direction: column;
 }
 
 /*Menu e logo*/
@@ -137,7 +138,7 @@ header {
 /*Seleção*/
 .qsomos {
   max-width: 1000px;
-  margin: 10px auto;
+  margin: 20vh 100px;
   text-align: center;
 }
 .qsomos .card-image {
@@ -165,4 +166,17 @@ header {
 }
 
 /*Final do whatsapp*/
-/* Roda-pé *//*# sourceMappingURL=about.css.map */
+/* Roda-pé */
+#rodape {
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+  background-size: 100%;
+  color: #eee;
+  padding: auto;
+  text-align: center;
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
+}
+
+/* Final Roda-pé *//*# sourceMappingURL=about.css.map */

@@ -7,11 +7,13 @@ body  *{
 */
 
 body{
-    font-family: "Times New Roman", serif;
+
+    margin: 0px 0px;
+    padding: 0px 0px;
 
 
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     flex-direction: column;
 
 
@@ -20,8 +22,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 /*Menu e logo*/
@@ -145,7 +145,7 @@ li{
         display: block;
         padding: 10px 15px;
         text-decoration: none;
-        color: #555;
+        color: #fff;
         transition: 0.5s ease; 
         &:hover{
             color: #fff;
@@ -192,8 +192,8 @@ li{
 
 /*Seleção*/
 .header-content{
-    max-width: 800px;
-    margin: 50vh 100px;
+    max-width: 10000px;
+    margin: 30vh;
 text-align: center;
 color: #fff;
 }
@@ -211,7 +211,7 @@ color: #fff;
     background-color: #1a1a1a;
     background-size: 100%;
     color: #eee;
-    padding: 5px;
+    padding: auto;
     text-align: center;
     margin-block-start: auto;
 

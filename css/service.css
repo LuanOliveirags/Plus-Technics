@@ -101,7 +101,7 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #555;
+  color: #fff;
   transition: 0.5s ease;
 }
 .menu li a:hover {
@@ -136,7 +136,7 @@ header {
 /*Seleção*/
 .qsomos {
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 10vh auto;
   text-align: center;
 }
 .qsomos .card-image {
@@ -169,9 +169,10 @@ header {
   background-color: #1a1a1a;
   background-size: 100%;
   color: #eee;
-  padding: 5px;
+  padding: auto;
   text-align: center;
-  margin: 0px;
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=service.css.map */
