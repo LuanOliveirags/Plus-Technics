@@ -143,10 +143,12 @@ header {
 /*Final da Responsividade mobile*/
 /*Seleção*/
 .header-content {
-  max-width: 1000px;
   margin: 30vh;
   text-align: center;
   color: #fff;
+}
+.header-content h2 {
+  width: 500px;
 }
 
 /*Final da Seleção*/
