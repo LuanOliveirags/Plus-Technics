@@ -139,6 +139,7 @@ header {
   margin: 10vh auto;
   text-align: center;
   background-color: #1a1a1a;
+  /*botão*/
 }
 .qsomos .card-image {
   width: 350px;
@@ -151,6 +152,17 @@ header {
 .qsomos .card-text {
   text-align: center;
   color: #fff;
+}
+.qsomos .btn {
+  border-radius: 80px;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.qsomos .btn:hover {
+  border-radius: 80px;
 }
 
 /*Final da Seleção*/
