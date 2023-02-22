@@ -141,6 +141,7 @@ header {
   background-color: #4c0277;
   left: 10%;
   text-align: center;
+  border-radius: 18px;
   margin: 20vh 100px;
 }
 .qsomos .card-image {
