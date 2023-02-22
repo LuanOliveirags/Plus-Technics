@@ -144,8 +144,8 @@ header {
   margin: 20vh 100px;
 }
 .qsomos .card-image {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 200px;
 }
 .qsomos .card-text {
@@ -167,7 +167,7 @@ header {
 #rodape {
   width: 100%;
   height: auto;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0);
   background-size: 100%;
   color: #eee;
   padding: auto;
