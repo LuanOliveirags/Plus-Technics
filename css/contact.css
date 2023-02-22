@@ -112,7 +112,7 @@ header {
 
 /*Final do Menu e logo*/
 /*Responsividade mobile*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 780px) {
   .hamburguer {
     display: block;
     z-index: 999;
