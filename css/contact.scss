@@ -2,16 +2,19 @@
 body{
 
     width: 100%;
-    height: 120vh;
+    height: 100vh;
 
     background-color: #101010;
 
-    display: flex;
+
+
     justify-content: center;
     align-items: center;
     margin: 0px;
     padding: 0px;
-    flex-direction: column;
+ 
+
+
 
 }
 
@@ -26,6 +29,7 @@ padding: 7px 10px;
 position: fixed;
 top: 0;
 z-index: 999;
+
 }
 
 
@@ -69,38 +73,38 @@ display: none;
 
 
 .hamburguer:after {
-    content: '';
-    
-    
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    
-    width: 70%;
-    height: 9%;
-    border-radius: 10px;
-    
-    background-color: #fff;
-    
-    transition: 1s ease;
-    
-    }
-    
-    .hamburguer:before {
-    content: '';
-    
-    
-    position: absolute;
-    top: 60%;
-    left: 45%;
-    
-    width: 40%;
-    height: 10%;
-    border-radius: 10px;
-    
-    background-color: #4c0277;
-    transition: 1s ease;
-    }
+content: '';
+
+
+position: absolute;
+top: 35%;
+left: 15%;
+
+width: 70%;
+height: 9%;
+border-radius: 10px;
+
+background-color: #fff;
+
+transition: 1s ease;
+
+}
+
+.hamburguer:before {
+content: '';
+
+
+position: absolute;
+top: 60%;
+left: 45%;
+
+width: 40%;
+height: 10%;
+border-radius: 10px;
+
+background-color: #4c0277;
+transition: 1s ease;
+}
 
 #hamburguer:checked ~ label .hamburguer::after{
     transform: rotate(720deg);
@@ -179,22 +183,38 @@ li{
 
 /*Seleção*/
 .qsomos{
-max-width: 1000px;  
-
+max-width: 200px;  
+margin: 10vh auto;
 text-align: center;
-margin: 40vh 0px;
+background-color: #4c0277; 
+border-radius: 18px;
+
 
 .card-image{
-    width: 350px;
-    height: 350px;
+    
+    width: 300px;
+    height: 300px;
     border-radius: 200px ;
     max-width: 800px;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center;  
 }
 .card-text{
     text-align: center;
     color: #fff;
+}
+/*botão*/
+.btn{
+    border-radius: 80px;
+    padding: 10px 15px;
+    background-color: #fff;
+    text-decoration: none;
+    
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 80px;
 }
 
 }
@@ -204,19 +224,17 @@ margin: 40vh 0px;
 
 .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
 /*Final do whatsapp*/
-
 /* Roda-pé */
 
 #rodape {
+    flex-shrink: 0;
     width: 100%;
-    height: auto;
     background-color: #1a1a1a;
     background-size: 100%;
     color: #eee;
     padding: auto;
     text-align: center;
     margin-block-start: auto;
-
     
 }
 /* Final Roda-pé */
