@@ -136,10 +136,10 @@ header {
 /*Final da Responsividade mobile*/
 /*Seleção*/
 .qsomos {
-  max-width: 200px;
+  max-width: auto;
   margin: 10vh auto;
   text-align: center;
-  background-color: #4c0277;
+  background-color: #1a1a1a;
   border-radius: 18px;
   /*botão*/
 }
