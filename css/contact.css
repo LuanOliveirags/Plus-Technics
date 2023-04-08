@@ -137,9 +137,9 @@ header {
 /*Seleção*/
 .qsomos {
   max-width: 1000px;
-  margin: 10vh auto;
+  margin: 30vh auto;
   text-align: center;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0);
   border-radius: 18px;
   /*botão*/
 }

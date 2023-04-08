@@ -5,7 +5,8 @@ body{
     height: 100vh;
     right: auto;
 
-    background-color: #101010;
+    background-color: #1a1a1a;
+    
 
 
 
@@ -13,6 +14,11 @@ body{
     align-items: center;
     margin: 0px;
     padding: 0px;
+
+    display: grid;
+    grid-template-columns: 0fr 5fr 5fr;
+
+
  
 
 
@@ -187,7 +193,7 @@ li{
 max-width: auto;  
 margin: 10vh auto;
 text-align: center;
-background-color: #1a1a1a;
+background-color: #1a1a1a00;
 border-radius: 18px;
 
 
@@ -208,7 +214,7 @@ border-radius: 18px;
 .btn{
     border-radius: 80px;
     padding: 10px 15px;
-    background-color: #fff;
+    background-color: #da7979;
     text-decoration: none;
     
     font-size: 15px;

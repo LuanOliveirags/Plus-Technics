@@ -3,11 +3,13 @@ body {
   width: 100%;
   height: 100vh;
   right: auto;
-  background-color: #101010;
+  background-color: #1a1a1a;
   justify-content: center;
   align-items: center;
   margin: 0px;
   padding: 0px;
+  display: grid;
+  grid-template-columns: 0fr 5fr 5fr;
 }
 
 /*Menu e logo*/
@@ -139,7 +141,7 @@ header {
   max-width: auto;
   margin: 10vh auto;
   text-align: center;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0);
   border-radius: 18px;
   /*botão*/
 }
@@ -158,7 +160,7 @@ header {
 .qsomos .btn {
   border-radius: 80px;
   padding: 10px 15px;
-  background-color: #fff;
+  background-color: #da7979;
   text-decoration: none;
   font-size: 15px;
   transition: all 0.5s;
