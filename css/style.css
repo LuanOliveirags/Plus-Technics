@@ -155,8 +155,8 @@ header {
 /*Final da Seleção*/
 /*Seleção*/
 .qsomos {
-  max-width: 220px;
-  background-color: #2c2b2b;
+  max-width: auto;
+  background-color: rgba(44, 43, 43, 0.2117647059);
   border-radius: 18px;
   text-align: center;
   margin: 40vh 100px;
@@ -171,10 +171,10 @@ header {
 }
 .qsomos .card-text {
   text-align: center;
-  color: #fffafa;
+  color: #ffffff;
 }
 .qsomos h1 {
-  color: #ffffff;
+  color: #000000;
 }
 
 /*Final da Seleção*/
