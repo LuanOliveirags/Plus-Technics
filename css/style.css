@@ -206,10 +206,10 @@ header {
 }
 .service1 .btn {
   border-radius: 80px;
-  padding: 5px 15px;
-  background-color: #fff;
+  padding: 5px 5px;
+  background-color: #00f7ff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   transition: all 0.5s;
 }
 .service1 .btn:hover {
@@ -241,10 +241,10 @@ header {
 }
 .service2 .btn {
   border-radius: 80px;
-  padding: 5px 15px;
-  background-color: #fff;
+  padding: 5px 5px;
+  background-color: #00f7ff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   transition: all 0.5s;
 }
 .service2 .btn:hover {
