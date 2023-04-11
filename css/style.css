@@ -156,7 +156,7 @@ header {
 /*Seleção*/
 .qsomos {
   max-width: auto;
-  background-color: rgba(44, 43, 43, 0.2117647059);
+  background-color: rgba(44, 43, 43, 0);
   border-radius: 18px;
   text-align: center;
   margin: 40vh 100px;
@@ -171,7 +171,7 @@ header {
 }
 .qsomos .card-text {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 .qsomos h1 {
   color: #000000;
