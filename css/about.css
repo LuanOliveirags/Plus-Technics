@@ -20,7 +20,7 @@ body {
 /*Menu e logo*/
 header {
   width: 100%;
-  background-color: #0e0c0c;
+  background-color: rgba(44, 43, 43, 0.2588235294);
   padding: 5px 10px;
   position: fixed;
   top: 0;
@@ -177,7 +177,7 @@ header {
 #rodape {
   width: 100%;
   height: auto;
-  background-color: #0e0c0c;
+  background-color: rgba(44, 43, 43, 0.2588235294);
   background-size: 100%;
   color: #eee;
   padding: auto;
