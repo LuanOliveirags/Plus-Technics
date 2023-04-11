@@ -1,5 +1,7 @@
 
 body{
+    font-family: 'Montserrat', sans-serif;
+
 
     width: 100%;
     height: 100vh;
@@ -275,7 +277,7 @@ h1{
 
 /*whatsapp*/
 
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: grid;}
 /*Final do whatsapp*/
 /* Roda-pé */
 

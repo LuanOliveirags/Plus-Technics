@@ -5,6 +5,8 @@ body  *{
 }   
 */
 body{
+    font-family: 'Montserrat', sans-serif;
+
     margin: 0px 0px;
 
     right: 10px;
@@ -227,7 +229,7 @@ li{
 
 /*whatsapp*/
 
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: grid;}
 /*Final do whatsapp*/
 /* Roda-pé */
 
