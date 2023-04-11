@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: auto;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,9 +147,12 @@ header {
   max-width: auto;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 18px;
-  color: #000000;
+  color: #00f7ff;
   text-align: center;
   margin: 40vh 100px;
+}
+.header-content h1 {
+  color: #fff;
 }
 
 /*Final da Seleção*/
@@ -171,10 +174,10 @@ header {
 }
 .qsomos .card-text {
   text-align: center;
-  color: #000000;
+  color: #00f7ff;
 }
 .qsomos h1 {
-  color: #000000;
+  color: #ffffff;
 }
 
 /*Final da Seleção*/
@@ -183,7 +186,7 @@ header {
   max-width: auto;
   margin: 10vh auto;
   text-align: center;
-  background-color: rgba(26, 26, 26, 0);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 18px;
   display: grid;
   grid-template-columns: 0fr 2fr 4fr;
@@ -199,7 +202,7 @@ header {
 }
 .service1 .card-text {
   text-align: center;
-  color: #000000;
+  color: #00f7ff;
 }
 .service1 .btn {
   border-radius: 80px;
@@ -213,7 +216,7 @@ header {
   border-radius: 80px;
 }
 .service1 h1 {
-  color: #000000;
+  color: #ffffff;
 }
 
 .service2 {
@@ -234,7 +237,7 @@ header {
 }
 .service2 .card-text {
   text-align: center;
-  color: #000000;
+  color: #00f7ff;
 }
 .service2 .btn {
   border-radius: 80px;
@@ -267,7 +270,7 @@ header {
   height: auto;
   background-color: rgba(44, 43, 43, 0.2588235294);
   background-size: 100%;
-  color: #000000;
+  color: #ffffff;
   padding: auto;
   text-align: center;
   -webkit-margin-before: auto;
