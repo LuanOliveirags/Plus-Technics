@@ -15,7 +15,8 @@ body{
     flex-direction: column;
 
 
-    background-image:url(/img/tec2.jpg);
+    /*background-image:url(/img/tec2.jpg);*/
+    background-color: black;
 
     display: flex;
     justify-content: center;
@@ -143,7 +144,7 @@ li{
         display: block;
         padding: 10px 15px;
         text-decoration: none;
-        color: #fff;
+        color: #00f7ff;
         transition: 0.5s ease; 
         &:hover{
             color: #fff;
@@ -214,7 +215,11 @@ li{
     }
     .card-text2{
         text-align: center;
-        color: #00f829;
+        color: #00f7ff;
+    }
+    
+    h4{
+        color: #00f7ff;
     }
     
     }
