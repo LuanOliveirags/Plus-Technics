@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 100vh;
   flex-direction: column;
-  background-color: #020202;
+  background-image: url(/img/tec2.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ header {
     right: 0;
     height: 100vh;
     margin: 0;
-    background-color: #1a1a1a;
+    background-color: rgba(44, 43, 43, 0.7176470588);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;

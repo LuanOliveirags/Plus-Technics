@@ -102,7 +102,7 @@ header {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   transition: 0.5s ease;
 }
 .menu li a:hover {
@@ -122,7 +122,7 @@ header {
     right: 0;
     height: 100vh;
     margin: 0;
-    background-color: #1a1a1a;
+    background-color: rgba(44, 43, 43, 0.2588235294);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
