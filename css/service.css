@@ -3,11 +3,13 @@ body {
   width: 100%;
   height: 100vh;
   right: auto;
-  background-color: #d3d3d3;
+  background-image: url(/img/tec2.jpg);
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0px;
   padding: 0px;
+  justify-content: center;
 }
 
 /*Menu e logo*/
@@ -135,7 +137,7 @@ header {
 }
 /*Final da Responsividade mobile*/
 /*Seleção*/
-.qsomos {
+.service1 {
   max-width: auto;
   margin: 10vh auto;
   text-align: center;
@@ -145,7 +147,7 @@ header {
   grid-template-columns: 0fr 2fr 4fr;
   /*botão*/
 }
-.qsomos .card-image {
+.service1 .card-image {
   width: 300px;
   height: 300px;
   border-radius: 200px;
@@ -153,11 +155,11 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
-.qsomos .card-text {
+.service1 .card-text {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
-.qsomos .btn {
+.service1 .btn {
   border-radius: 80px;
   padding: 5px 15px;
   background-color: #fff;
@@ -165,11 +167,46 @@ header {
   font-size: 15px;
   transition: all 0.5s;
 }
-.qsomos .btn:hover {
+.service1 .btn:hover {
   border-radius: 80px;
 }
-.qsomos h1 {
-  color: #000000;
+.service1 h1 {
+  color: #ffffff;
+}
+
+.service2 {
+  max-width: auto;
+  margin: 10vh auto;
+  text-align: center;
+  background-color: rgba(26, 26, 26, 0);
+  border-radius: 18px;
+  /*botão*/
+}
+.service2 .card-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service2 .card-text {
+  text-align: center;
+  color: #ffffff;
+}
+.service2 .btn {
+  border-radius: 80px;
+  padding: 5px 15px;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.service2 .btn:hover {
+  border-radius: 80px;
+}
+.service2 h1 {
+  color: #ffffff;
 }
 
 /*Final da Seleção*/
@@ -188,7 +225,7 @@ header {
   height: auto;
   background-color: rgba(44, 43, 43, 0.2588235294);
   background-size: 100%;
-  color: #000000;
+  color: #ffffff;
   padding: auto;
   text-align: center;
   -webkit-margin-before: auto;
