@@ -245,6 +245,9 @@ section.module.parallax-3 h4 {
 section.module.parallax-3 p {
   color: #ffffff;
 }
+section.module.parallax-3 h5 {
+  color: #ffffff;
+}
 
 .whats {
   position: fixed;
