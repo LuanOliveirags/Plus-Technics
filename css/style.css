@@ -242,6 +242,9 @@ section.module.parallax-3 h4 {
   font-size: 20px;
   font-weight: 900;
 }
+section.module.parallax-3 p {
+  color: #00f7ff;
+}
 
 .whats {
   position: fixed;
