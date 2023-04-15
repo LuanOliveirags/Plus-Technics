@@ -225,6 +225,9 @@ section.module.parallax-2 h4 {
   font-size: 20px;
   font-weight: 900;
 }
+section.module.parallax-2 p {
+  color: #00f7ff;
+}
 
 section.module.parallax-3 {
   background-image: url(/img/tec2.jpg);
