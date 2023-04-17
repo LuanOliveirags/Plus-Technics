@@ -193,7 +193,7 @@ section.module.parallax:after {
 }
 
 section.module.parallax-1 {
-  background-color: #050505;
+  background-image: url(/img/tec2.jpg);
   text-align: center;
 }
 section.module.parallax-1 h1 {
@@ -210,7 +210,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/tec2.jpg);
+  background-color: #050505;
   text-align: center;
 }
 section.module.parallax-2 h1 {
@@ -239,7 +239,7 @@ section.module.parallax-2 h4 {
 #rodape {
   width: 100%;
   height: auto;
-  background-color: rgba(44, 43, 43, 0.2588235294);
+  background-color: rgba(44, 43, 43, 0);
   background-size: 100%;
   color: #ffffff;
   padding: auto;
