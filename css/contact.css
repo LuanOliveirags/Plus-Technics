@@ -228,7 +228,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-color: #050505;
+  background-image: url(/img/homem1.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {
