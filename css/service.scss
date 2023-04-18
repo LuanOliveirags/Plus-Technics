@@ -7,50 +7,48 @@
 }   
 */
 body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    right: 10px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    background-color: #000;
-  
-    
-   
-  }
-  
-  /*Menu e logo*/
-  header{
-  background-color: #2c2b2b42;
-  width: 100%;
-  padding: 0 auto;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-  }
-  
-  
-  .navbar{
-  max-width: 0 auto;
-  margin: 0 auto;
-  padding: 0 20px ;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
-  
-  .logo{
-  width: 50px;
-  height: 50px;
-  background-color: #55555500;
-  border-radius: 10px;
-  text-align: center;
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  }
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  right: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background-color: #000000;
+}
+
+
+/*Menu e logo*/
+header{
+background-color: #2c2b2b00;
+width: 100%;
+padding: 0 auto;
+position: fixed;
+top: 0;
+z-index: 999;
+}
+
+
+.navbar{
+max-width: 0 auto;
+margin: 0 auto;
+padding: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+width: 50px;
+height: 5px;
+background-color: #00f7ff00;
+border-radius: 10px;
+text-align: center;
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+}
   
   .hamburguer{
   width: 35px;
