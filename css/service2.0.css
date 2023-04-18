@@ -58,8 +58,7 @@ header {
   cursor: pointer;
   display: none;
 }
-
-.hamburguer:after {
+.hamburguer .hamburguer:after {
   content: "";
   position: absolute;
   top: 35%;
@@ -70,8 +69,7 @@ header {
   background-color: #fff;
   transition: 1s ease;
 }
-
-.hamburguer:before {
+.hamburguer .hamburguer:before {
   content: "";
   position: absolute;
   top: 60%;
@@ -82,14 +80,12 @@ header {
   background-color: #00f7ff;
   transition: 1s ease;
 }
-
-#hamburguer:checked ~ label .hamburguer::after {
+.hamburguer #hamburguer:checked ~ label .hamburguer::after {
   transform: rotate(720deg);
   top: 70%;
   left: 15%;
 }
-
-#hamburguer:checked ~ label .hamburguer::before {
+.hamburguer #hamburguer:checked ~ label .hamburguer::before {
   transform: rotate(-180deg);
   width: 70%;
   height: 10%;
@@ -324,4 +320,4 @@ section.module.parallax-2 h4 {
           margin-block-start: auto;
 }
 
-/* Final Roda-pé *//*# sourceMappingURL=service.css.map */
+/* Final Roda-pé *//*# sourceMappingURL=service2.0.css.map */

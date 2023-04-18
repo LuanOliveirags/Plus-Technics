@@ -14,12 +14,12 @@ body{
   word-wrap: break-word;
   overflow-wrap: break-word;
   background-color: #000000;
-}
 
+}
 
 /*Menu e logo*/
 header{
-background-color: #2c2b2b00;
+background-color: #2c2b2b42;
 width: 100%;
 padding: 0 auto;
 position: fixed;
@@ -31,7 +31,7 @@ z-index: 999;
 .navbar{
 max-width: 0 auto;
 margin: 0 auto;
-padding: 0 auto;
+padding: 0 20px ;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -39,8 +39,8 @@ align-items: center;
 
 .logo{
 width: 50px;
-height: 5px;
-background-color: #00f7ff00;
+height: 50px;
+background-color: #55555500;
 border-radius: 10px;
 text-align: center;
 
@@ -49,129 +49,101 @@ a {
   text-decoration: none;
 }
 }
-
+  
+  /*Barra de menu Celular*/
 .hamburguer{
-width: 35px;
-height: 35px;
-
-background-color: transparent;
-border-radius: 5px;
-border: 0;
-
-position: relative;
-cursor: pointer;
-
-display: none;
-}
-
-
-.hamburguer:after {
-  content: '';
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  position: relative;
+  cursor: pointer;
+  display: none;
+            }
   
+  .hamburguer:after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 1s ease;
+    }
+    
+    .hamburguer:before {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #00f7ff;
+    transition: 1s ease;
+    }
   
-  position: absolute;
-  top: 35%;
+  #hamburguer:checked ~ label .hamburguer::after{
+  transform: rotate(720deg);
+  top: 70%;
   left: 15%;
+  }
   
+  #hamburguer:checked ~ label .hamburguer::before{
+  transform: rotate(-180deg);
   width: 70%;
   height: 10%;
-  border-radius: 10px;
-  
-  background-color: #fff;
-  
-  transition: 1s ease;
-  
+  top: 45%;
+  left: 15%;
   }
   
-  .hamburguer:before {
-  content: '';
-  
-  
-  position: absolute;
-  top: 60%;
-  left: 45%;
-  
-  width: 40%;
-  height: 10%;
-  border-radius: 10px;
-  
-  background-color: #00f7ff;
-  transition: 1s ease;
-  }
-
-#hamburguer:checked ~ label .hamburguer::after{
-transform: rotate(720deg);
-top: 70%;
-left: 15%;
-}
-
-#hamburguer:checked ~ label .hamburguer::before{
-transform: rotate(-180deg);
-
-width: 70%;
-height: 10%;
-
-top: 45%;
-left: 15%;
-
-}
-
 .menu{
-
-list-style: none;
-
-
-display: flex;
-align-items: center;
-
-li{
-  margin-left: 10px;
-
-  a{
-      display: block;
-      padding: 10px 15px;
-      text-decoration: none;
-      color: #00f7ff;
-      transition: 0.5s ease; 
-      &:hover{
-          color: #fff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+  li{
+    margin-left: 10px;
+    a{
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #00f7ff;
+        transition: 0.5s ease; 
+        &:hover{
+            color: #fff;
+               }
       }
-  }
+    }
 }
-}
-/*Final do Menu e logo*/
-/*Responsividade mobile*/
+  /*Final do Menu e logo*/
+
+  /*Responsividade mobile*/
 @media screen and (max-width: 980px){
-.hamburguer {
-  display: block;
-  z-index: 999;
-}
-
-.menu{
-  position: fixed;
-  top: 0;
-  right: 0;
-
-
-  height: 100vh !important;
-  margin: 0;
-  background-color: #0000008f;
-
-  width:100% ;
-  max-width: 100px;
-
-  padding: 100px 20px;
-
-  flex-direction: column;
-  transition: 0.5s ease;
-}
-
-.menu.active{
-  right: -100%;
-
-}
-
-
+  .hamburguer {
+    display: block;
+    z-index: 999;
+              }
+              
+  .menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh !important;
+    margin: 0;
+    background-color: #0000008f;
+    width:100% ;
+    max-width: 100px;
+    padding: 100px 20px;
+    flex-direction: column;
+    transition: 0.5s ease;
+        }
+  .menu.active{
+    right: -100%;
+              }
 
 }
 /*Final da Responsividade mobile*/

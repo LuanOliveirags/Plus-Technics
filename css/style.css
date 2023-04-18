@@ -18,7 +18,7 @@ body {
 
 /*Menu e logo*/
 header {
-  background-color: rgba(44, 43, 43, 0);
+  background-color: rgba(44, 43, 43, 0.2588235294);
   width: 100%;
   padding: 0 auto;
   position: fixed;
@@ -29,7 +29,7 @@ header {
 .navbar {
   max-width: 0 auto;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,8 +37,8 @@ header {
 
 .logo {
   width: 50px;
-  height: 5px;
-  background-color: rgba(0, 247, 255, 0);
+  height: 50px;
+  background-color: rgba(85, 85, 85, 0);
   border-radius: 10px;
   text-align: center;
 }
@@ -47,10 +47,11 @@ header {
   text-decoration: none;
 }
 
+/*Barra de menu Celular*/
 .hamburguer {
+  background-color: transparent;
   width: 35px;
   height: 35px;
-  background-color: transparent;
   border-radius: 5px;
   border: 0;
   position: relative;
