@@ -198,7 +198,7 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.979) 10%, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
 }
 
 section.module.parallax-3:after {
@@ -207,7 +207,7 @@ section.module.parallax-3:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.979) 10%, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0, 0, 0, 0) 40%, #000 100%);
 }
 
 section.module.parallax-1 {
@@ -228,7 +228,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/homem1.jpg);
+  background-image: url(/img/b.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {
@@ -248,7 +248,7 @@ section.module.parallax-2 p {
 }
 
 section.module.parallax-3 {
-  background-image: url(/img/tec2.jpg);
+  background-image: url(/img/b.jpg);
   text-align: center;
 }
 section.module.parallax-3 h1 {
