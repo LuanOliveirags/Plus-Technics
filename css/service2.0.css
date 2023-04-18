@@ -13,7 +13,7 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-color: #000;
 }
 
 /*Menu e logo*/
@@ -198,16 +198,7 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.979) 10%, rgba(0, 0, 0, 0) 40%, #000 100%);
-}
-
-section.module.parallax-3:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 8;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.979) 10%, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
 }
 
 section.module.parallax-1 {
@@ -228,7 +219,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-color: #050505;
+  background-image: url(/img/b.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {
@@ -251,7 +242,6 @@ section.module.parallax-2 h4 {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 18px;
   grid-template-columns: 0fr 2fr 4fr;
-  /*botão*/
 }
 .service1 .card-image {
   width: 300px;
@@ -264,30 +254,6 @@ section.module.parallax-2 h4 {
 .service1 .card-text {
   text-align: center;
   color: #fff;
-}
-.service1 .btn {
-  border-radius: 80px;
-  padding: 5px 5px;
-  background-color: #00f7ff;
-  text-decoration: none;
-  font-size: 13px;
-  transition: all 0.5s;
-}
-.service1 .btn:hover {
-  border-radius: 80px;
-  cursor: pointer;
-  transition: 0.6s;
-  border-radius: 80px;
-  padding: 5px 10px;
-  background-color: #00f7ff;
-  text-decoration: none;
-  border: 2px solid white;
-  margin: 6px;
-  border-radius: 5px;
-  transition: 0.6s;
-}
-.service1 h1 {
-  color: #ffffff;
 }
 
 .service2 {
