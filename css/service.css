@@ -312,6 +312,14 @@ section.module.parallax-2 h4 {
   color: #ffffff;
 }
 
+.text-1 {
+  visibility: hidden;
+}
+
+.card-image {
+  visibility: hidden;
+}
+
 .whats {
   position: fixed;
   bottom: 10px;

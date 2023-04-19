@@ -6,6 +6,9 @@ $(document).ready(function () {
 });
 
 window.sr = ScrollReveal().reveal('.text-1', { delay: 1000 });
+window.sr = ScrollReveal().reveal('.card-image', { delay: 1000 });
+
+
 
 
 

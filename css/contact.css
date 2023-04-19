@@ -255,6 +255,10 @@ section.module.parallax-2 h4 {
   font-weight: 900;
 }
 
+.text-1 {
+  visibility: hidden;
+}
+
 .whats {
   position: fixed;
   bottom: 10px;
