@@ -23,7 +23,14 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-image: url(/img/b.jpg);
+  background-image: url(/img/b2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Outros navegadores*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*Menu e logo*/
@@ -212,6 +219,15 @@ section.module.parallax-2:after {
   background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
 }
 
+section.module.parallax-3:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+
 section.module.parallax-1 {
   background-image: url(/img/b.jpg);
   text-align: center;
@@ -244,6 +260,29 @@ section.module.parallax-2 h4 {
   color: #00f7ff;
   font-size: 20px;
   font-weight: 900;
+}
+
+section.module.parallax-3 {
+  background-image: url(/img/b2.jpg);
+  text-align: center;
+}
+section.module.parallax-3 h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 50;
+}
+section.module.parallax-3 h4 {
+  color: #00f7ff;
+  font-size: 20px;
+  font-weight: 900;
+}
+section.module.parallax-3 p {
+  color: #00f7ff;
+}
+section.module.parallax-3 h5 {
+  color: #00f7ff;
 }
 
 .service1 {
@@ -309,6 +348,39 @@ section.module.parallax-2 h4 {
   transition: 0.6s;
 }
 .service2 h1 {
+  color: #ffffff;
+}
+
+.botao {
+  max-width: auto;
+  margin: 10vh auto;
+  text-align: center;
+  background-color: rgba(26, 26, 26, 0);
+  border-radius: 18px;
+  /*botão*/
+}
+.botao .btn {
+  border-radius: 80px;
+  padding: 5px 5px;
+  background-color: #00f7ff;
+  text-decoration: none;
+  font-size: 13px;
+  transition: all 0.6s;
+}
+.botao .btn:hover {
+  border-radius: 80px;
+  cursor: pointer;
+  transition: 0.6s;
+  border-radius: 80px;
+  padding: 5px 10px;
+  background-color: #00f7ff;
+  text-decoration: none;
+  border: 2px solid white;
+  margin: 6px;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.botao h1 {
   color: #ffffff;
 }
 
