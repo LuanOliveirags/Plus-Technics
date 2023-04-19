@@ -6,6 +6,15 @@
     
 }   
 */
+.scroll::-webkit-scrollbar{
+  width: 5px;
+  border-radius: 1px solid rgb(3, 233, 250);
+  }
+  
+  .scroll::-webkit-scrollbar-thumb{
+    background-color: #00f7ff;
+    border-radius: 6px;}
+
 body{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
