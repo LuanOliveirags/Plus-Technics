@@ -23,7 +23,7 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-image: url(/img/b.jpg);
 }
 
 /*Menu e logo*/
@@ -213,7 +213,7 @@ section.module.parallax-2:after {
 }
 
 section.module.parallax-1 {
-  background-image: url(/img/tec2.jpg);
+  background-image: url(/img/b.jpg);
   text-align: center;
 }
 section.module.parallax-1 h1 {
@@ -230,7 +230,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/b.jpg);
+  background-image: url(/img/a.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {

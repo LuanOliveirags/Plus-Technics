@@ -222,7 +222,7 @@ section.module.parallax-3:after {
 }
 
 section.module.parallax-1 {
-  background-image: url(/img/tec2.jpg);
+  background-image: url(/img/b.jpg);
   text-align: center;
 }
 section.module.parallax-1 h1 {
@@ -239,7 +239,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/b.jpg);
+  background-image: url(/img/a.jpg);
   text-align: center;
 }
 section.module.parallax-2 h1 {
