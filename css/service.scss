@@ -22,7 +22,8 @@ body{
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-image: url(/img/a.jpg);
+  background-color: #000;
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -264,7 +265,7 @@ a {
     }
     
     section.module.parallax-2{ 
-      background-image: url(/img/a.jpg);
+      background-image: url(/img/b3.jpg);
     
     text-align: center;
     h1 {
