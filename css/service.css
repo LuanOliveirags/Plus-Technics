@@ -363,7 +363,19 @@ section.module.parallax-3 h5 {
   visibility: hidden;
 }
 
+.card-text {
+  visibility: hidden;
+}
+
 .card-image {
+  visibility: hidden;
+}
+
+.service1 {
+  visibility: hidden;
+}
+
+.service2 {
   visibility: hidden;
 }
 

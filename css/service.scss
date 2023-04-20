@@ -356,6 +356,10 @@ a {
           }
         }
 
+
+
+
+
           .botao{
             max-width: auto;  
             margin: 10vh auto;
@@ -401,8 +405,16 @@ a {
             visibility: hidden;
           }
           
-          
+          .card-text{
+            visibility: hidden;
+          }
           .card-image{
+            visibility: hidden;
+          }
+          .service1{
+            visibility: hidden;
+          }
+          .service2{
             visibility: hidden;
           }
           
