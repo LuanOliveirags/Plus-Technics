@@ -248,11 +248,10 @@ section.module.parallax-2 .conteudo1 {
 section.module.parallax-2 .conteudo1 .card1 {
   width: 500px;
   height: 400px;
-  border-radius: 50px;
+  border-radius: 510px;
 }
 section.module.parallax-2 .conteudo1 .textcard1 {
   display: inline-block;
-  color: #00f7ff;
   vertical-align: top;
 }
 
@@ -266,7 +265,7 @@ section.module.parallax-3 .conteudo2 {
 section.module.parallax-3 .conteudo2 .card2 {
   width: 500px;
   height: 400px;
-  border-radius: 50px;
+  border-radius: 510px;
 }
 section.module.parallax-3 .conteudo2 .textcard2 {
   display: inline-block;
