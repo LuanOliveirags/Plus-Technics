@@ -51,6 +51,7 @@ header {
   background-color: rgba(85, 85, 85, 0);
   border-radius: 10px;
   text-align: center;
+  visibility: hidden;
 }
 .logo a {
   color: #fff;

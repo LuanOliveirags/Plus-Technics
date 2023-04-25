@@ -6,7 +6,11 @@ $(document).ready(function () {
 });
 
 window.sr = ScrollReveal().reveal('.text-1', { delay: 1000 });
-window.sr = ScrollReveal().reveal('.card-image', { delay: 1000 });
+window.sr = ScrollReveal().reveal('.card-image', { delay: 2000 });
+window.sr = ScrollReveal().reveal('.logo', {rotate: {x:80, y:10, z:0}},{duration: 6000});
+
+window.sr = ScrollReveal().reveal('.menu', { delay: 1500 });
+window.sr = ScrollReveal().reveal('.hamburguer', { delay: 1400 });
 
 
 
