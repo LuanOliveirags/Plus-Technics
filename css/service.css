@@ -209,7 +209,7 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, rgba(0, 0, 0, 0.8784313725) 100%);
 }
 
 section.module.parallax-3:after {
@@ -283,13 +283,13 @@ section.module.parallax-3 .conteudo2 .textcard2 {
   margin: 10vh auto;
   text-align: center;
   background-color: rgba(26, 26, 26, 0);
-  border-radius: 18px;
+  border-radius: 9px;
   /*botão*/
 }
 
 .botao .btn {
-  border-radius: 80px;
-  padding: 5px 5px;
+  border-radius: 10px;
+  padding: 20px 15px;
   background-color: #00f7ff;
   text-decoration: none;
   font-size: 13px;
@@ -297,7 +297,7 @@ section.module.parallax-3 .conteudo2 .textcard2 {
 }
 
 .botao .btn:hover {
-  border-radius: 80px;
+  border-radius: 0px;
   cursor: pointer;
   transition: 0.6s;
   border-radius: 80px;
