@@ -51,6 +51,7 @@ header {
   background-color: rgba(85, 85, 85, 0);
   border-radius: 10px;
   text-align: center;
+  visibility: hidden;
 }
 .logo a {
   color: #fff;
@@ -273,7 +274,7 @@ section.module.parallax-3 .conteudo2 .textcard2 {
   vertical-align: top;
 }
 
-.text-1 {
+.text-1, .card1, .card2 {
   visibility: hidden;
 }
 

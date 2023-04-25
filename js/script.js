@@ -16,8 +16,11 @@ window.sr = ScrollReveal().reveal('.hamburguer', { delay: 1400 });
 
 
 
+
+
 window.sr = ScrollReveal ({reset:true});
-sr.reveal ('.text-1',{rotate: {x:0, y:80, z:0}},{duration: 3000});
+sr.reveal ('.card1',{rotate: {x:0, y:900, z:0}});
+sr.reveal ('.card2',{rotate: {x:0, y:900, z:0}});
 sr.reveal ('.text-2',{duration: 3000});
 
 sr.reveal ('p',{duration: 2000});
