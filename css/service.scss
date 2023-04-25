@@ -7,67 +7,58 @@
 }   
 */
 .scroll::-webkit-scrollbar{
-  width: 5px;
-  border-radius: 1px solid rgb(3, 233, 250);
+    width: 5px;
+    border-radius: 1px solid rgb(3, 233, 250);
+    }
+    
+    .scroll::-webkit-scrollbar-thumb{
+      background-color: #00f7ff;
+      border-radius: 6px;}
+  
+  body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #000000;
+  
   }
   
-  .scroll::-webkit-scrollbar-thumb{
-    background-color: #00f7ff;
-    border-radius: 6px;}
-
-body{
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  right: 10px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  background-color: #000;
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /* Outros navegadores*/
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-
-}
-
-/*Menu e logo*/
-header{
-background-color: #2c2b2b00;
-width: 100%;
-padding: 0 auto;
-position: fixed;
-top: 0;
-z-index: 999;
-}
-
-
-.navbar{
-max-width: 0 auto;
-margin: 0 auto;
-padding: 0 20px ;
-display: flex;
-justify-content: space-between;
-align-items: center;
-
-}
-
-.logo{
-width: 50px;
-height: 75px;
-background-color: #55555500;
-border-radius: 10px;
-text-align: center;
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-}
+  /*Menu e logo*/
+  header{
+  background-color: #2c2b2b00;
+  width: 100%;
+  padding: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  }
   
+  
+  .navbar{
+  max-width: 0 auto;
+  margin: 0 auto;
+  padding: 0 20px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+  
+  .logo{
+  width: 50px;
+  height: 75px;
+  background-color: #55555500;
+  border-radius: 10px;
+  text-align: center;
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  }
     
     /*Barra de menu Celular*/
   .hamburguer{
@@ -167,274 +158,198 @@ a {
   }
   /*Final da Responsividade mobile*/
   
-    
-    .wrapper{
-    width: 100%;
-    margin: 0 auto;
-    }
-    main{
-    display: block;
-    background-color: #000000;
-    }
   
-    .container{
+  
+  .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  }
+  main{
+  display: block;
+  background-color: #000000;
+  }
+  
+  .container{
+  text-align: center;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+  }
+  
+  h1,h2,h3,h4,h5,h6,P{
+  font-weight: 900;
+  color: #ffffff;
+  }
+  
+  
+  
+  section.module.parallax{
+    background-color: #D3D3D3;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Outros navegadores*/
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+  
+  }
+  
+  
+  
+  
+  section.module.parallax-1:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  }
+  section.module.parallax-2:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100% );
+  }
+  section.module.parallax-3:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #000 100% );
+  }
+  
+  section.module.parallax-1{
+  background-image: url(/img/b.jpg);
+  
+  text-align: center;
+  h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
     text-align: center;
-    width: 100%;
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 0 20px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    
-    }
-    
-    h1,h2,h3,h4,h5,h6,P{
+    z-index: 50;
+  
+  }
+  h4 {
+    color: #00f7ff;
+    font-size: 20px;
     font-weight: 900;
+  }
+  
+  }
+  
+  section.module.parallax-2{  
+  background-image: url(/img/b3.jpg);
+  text-align: center;
+.conteudo1{
+    display: inline-block;
+.card1{
+        width: 500px;
+        height: 400px;
+        border-radius: 50px;
+}
+.textcard1{
+    display: inline-block;
+    color: #00f7ff;
+    vertical-align: top;
+  }
+  }
+}
+
+
+  section.module.parallax-3{  
+    background-image: url(/img/b2.jpg);
+    text-align: center;
+  .conteudo2{
+      display: inline-block;
+  .card2{
+          width: 500px;
+          height: 400px;
+          border-radius: 50px;
+  }
+  .textcard2{
+      display: inline-block;
+      color: #00f7ff;
+      vertical-align: top;
+  }
+  }
+}
+  
+  
+  .text-1{
+    visibility: hidden;
+  }
+  
+  .botao {
+    max-width: auto;
+    margin: 10vh auto;
+    text-align: center;
+    background-color: rgba(26, 26, 26, 0);
+    border-radius: 18px;
+    /*botão*/
+  }
+  .botao .btn {
+    border-radius: 80px;
+    padding: 5px 5px;
+    background-color: #00f7ff;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.6s;
+  }
+  .botao .btn:hover {
+    border-radius: 80px;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 80px;
+    padding: 5px 10px;
+    background-color: #00f7ff;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    transition: 0.6s;
+  }
+  .botao h1 {
     color: #ffffff;
-    }
-    
-    section.module.parallax{
-      background-color: #D3D3D3;
-      background-position: 50% 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100vh !important;
-      position: relative;
-      overflow: hidden;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      /* Outros navegadores*/
-      -webkit-background-size:cover;
-      -moz-background-size:cover;
-      -o-background-size:cover;
-    
-    }
-    
-    section.module.parallax-1:after{
-      content: "";
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      z-index: 8;
-      background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      }
-      section.module.parallax-2:after{
-      content: "";
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      z-index: 8;
-      background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100% );
-      }
-      section.module.parallax-3:after{
-      content: "";
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      z-index: 8;
-      background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-      background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #000 100% );
-      }
+  }
   
-    section.module.parallax-1{
-      background-image: url(/img/b.jpg);
-    
-    
-      
+
+  .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: grid;}
+  /*Final do whatsapp*/
+  /* Roda-pé */
+  #rodape {
+    width: 100%;
+    height: auto;
+    background-color: #2c2b2b00;
+    background-size: 100%;
+    color: #ffffff;
+    padding: auto;
     text-align: center;
-    h1 {
-      color: #fff;
-      font-size: 45px;
-      font-weight: 400;
-      text-align: center;
-      z-index: 50;
-    
-    }
-    h4 {
-      color: #00f7ff;
-      font-size: 20px;
-      font-weight: 900;
-    }
-    }
-    
-    section.module.parallax-2{ 
-      background-image: url(/img/b3.jpg);
-    
-    text-align: center;
-    h1 {
-      color: #fff;
-      font-size: 45px;
-      font-weight: 400;
-      text-align: center;
-      z-index: 50;
-    
-    }
-    h4 {
-      color: #00f7ff;
-      font-size: 20px;
-      font-weight: 900;
-    }
-    }
-    section.module.parallax-3{  background-image: url(/img/b2.jpg);
-
-      text-align: center;
-      h1 {
-        color: #fff;
-        font-size: 45px;
-        font-weight: 400;
-        text-align: center;
-        z-index: 50;
-      
-      }
-      h4 {
-        color: #00f7ff;
-        font-size: 20px;
-        font-weight: 900;
-      }
-      p{ color: #00f7ff;}
-      h5{color: #00f7ff;}
-      
-      }
-      
-    
-  
-  
-    .service1{
-      max-width: auto;  
-      margin: 10vh auto;
-      text-align: center;
-      background-color: #ffffff00;
-      border-radius: 18px;
-      grid-template-columns: 0fr 2fr 4fr;
-      
-      
-      .card-image{
-          
-          width: 400px;
-          height: 300px;
-          border-radius: 100px ;
-          max-width: 800px;
-          flex-wrap: wrap;
-          justify-content: center;  
-      }
-      .card-text{
-          text-align: center;
-          color: #fff;
-      }
-  
-      
-      }
-      
-      .service2{
-          max-width: auto;  
-          margin: 10vh auto;
-          text-align: center;
-          background-color: #1a1a1a00;
-          border-radius: 18px;
-      
-      
-          
-          .card-image{
-              
-            width: 400px;
-            height: 300px;
-            border-radius: 100px ;
-            max-width: 800px;
-              flex-wrap: wrap;
-              justify-content: center;  
-          }
-          .card-text{
-              text-align: center;
-              color: #fff;
-          }
-        }
-
-
-
-
-
-          .botao{
-            max-width: auto;  
-            margin: 10vh auto;
-            text-align: center;
-            background-color: #1a1a1a00;
-            border-radius: 18px;
-
-                      /*botão*/
-          .btn{
-            border-radius: 80px;
-            padding: 5px 5px;
-            background-color: #00f7ff;
-            text-decoration: none;
-            
-            font-size: 13px;
-            transition: all .6s;
-        }
-        .btn:hover{
-            border-radius: 80px;
-            cursor: pointer;
-            transition: .6s;
-
-
-            border-radius: 80px;
-            padding: 5px 10px;
-            background-color: #00f7ff;
-            text-decoration: none;
-            
-            border: 2px solid white;
-            margin: 6px;
-            border-radius: 5px;
-            transition: .6s;
-    
-        }
-        
-        h1{
-            color: #ffffff;
-        }
-          }
-  
-  
-          .text-1{
-            visibility: hidden;
-          }
-          .card-text{
-            visibility: hidden;
-          }
-          .card-image{
-            visibility: hidden;
-          }
-          .service1{
-            visibility: hidden;
-          }
-          .service2{
-            visibility: hidden;
-          }
-          
+    margin-block-start: auto;
   
     
+  }
+  /* Final Roda-pé */
   
-    
-    .whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999; display: grid;}
-    /*Final do whatsapp*/
-    /* Roda-pé */
-    #rodape {
-      width: 100%;
-      height: auto;
-      background-color: #2c2b2b00;
-      background-size: 100%;
-      color: #ffffff;
-      padding: auto;
-      text-align: center;
-      margin-block-start: auto;
-    
-      
-    }
-    /* Final Roda-pé */
-    
