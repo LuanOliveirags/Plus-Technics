@@ -23,12 +23,12 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 /*Menu e logo*/
 header {
-  background-color: rgba(44, 43, 43, 0);
+  background-color: rgba(255, 255, 255, 0);
   width: 100%;
   padding: 0 auto;
   position: fixed;
@@ -51,7 +51,6 @@ header {
   background-color: rgba(85, 85, 85, 0);
   border-radius: 10px;
   text-align: center;
-  visibility: hidden;
 }
 .logo a {
   color: #fff;
@@ -59,7 +58,7 @@ header {
 }
 
 /*Barra de menu Celular*/
-.hamburguer {
+.menubar {
   background-color: transparent;
   width: 35px;
   height: 35px;
@@ -70,7 +69,7 @@ header {
   display: none;
 }
 
-.hamburguer:after {
+.menubar:after {
   content: "";
   position: absolute;
   top: 35%;
@@ -78,11 +77,11 @@ header {
   width: 70%;
   height: 10%;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #00f7ff;
   transition: 1s ease;
 }
 
-.hamburguer:before {
+.menubar:before {
   content: "";
   position: absolute;
   top: 60%;
@@ -94,13 +93,13 @@ header {
   transition: 1s ease;
 }
 
-#hamburguer:checked ~ label .hamburguer::after {
+#menubar:checked ~ label .menubar::after {
   transform: rotate(720deg);
   top: 70%;
   left: 15%;
 }
 
-#hamburguer:checked ~ label .hamburguer::before {
+#menubar:checked ~ label .menubar::before {
   transform: rotate(-180deg);
   width: 70%;
   height: 10%;
@@ -124,13 +123,13 @@ header {
   transition: 0.5s ease;
 }
 .menu li a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 /*Final do Menu e logo*/
 /*Responsividade mobile*/
 @media screen and (max-width: 980px) {
-  .hamburguer {
+  .menubar {
     display: block;
     z-index: 999;
   }
@@ -140,7 +139,7 @@ header {
     right: 0;
     height: 100vh !important;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.5607843137);
+    background-color: rgba(255, 255, 255, 0.7058823529);
     width: 100%;
     max-width: 100px;
     padding: 100px 20px;
@@ -178,7 +177,7 @@ h1, h2, h3, h4, h5, h6, P {
 }
 
 section.module.parallax {
-  background-color: #D3D3D3;
+  background-color: #000000;
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
@@ -201,7 +200,11 @@ section.module.parallax-1:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+  /*
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  */
 }
 
 section.module.parallax-2:after {
@@ -210,7 +213,11 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100%);
+  /*
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, #000 100% );
+  */
 }
 
 section.module.parallax-3:after {
@@ -219,67 +226,56 @@ section.module.parallax-3:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0, 0, 0, 0) 40%, #000 100%);
+  /*
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(0,0,0,0) 40%, #000 100% );
+  */
 }
 
 section.module.parallax-1 {
-  background-image: url(/img/b.jpg);
+  background-image: url(/img/Style10.jpg);
   text-align: center;
 }
 section.module.parallax-1 h1 {
-  color: #fff;
-  font-size: 45px;
+  color: #ffffff;
+  font-size: 40px;
   font-weight: 400;
-  text-align: center;
   z-index: 50;
 }
 section.module.parallax-1 h4 {
-  color: #00f7ff;
+  color: #ffffff;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 300;
+  z-index: 50;
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/b3.jpg);
+  background-image: url(/img/Style11.jpg);
   text-align: center;
 }
-section.module.parallax-2 h1 {
-  color: #fff;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
+section.module.parallax-2 h2 {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 200;
   z-index: 50;
-}
-section.module.parallax-2 h4 {
-  color: #00f7ff;
-  font-size: 20px;
-  font-weight: 900;
-}
-section.module.parallax-2 p {
-  color: #00f7ff;
 }
 
 section.module.parallax-3 {
-  background-image: url(/img/b2.jpg);
+  background-image: url(/img/Style10.jpg);
   text-align: center;
-}
-section.module.parallax-3 h1 {
-  color: #fff;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
 }
 section.module.parallax-3 h4 {
-  color: #00f7ff;
-  font-size: 20px;
-  font-weight: 900;
-}
-section.module.parallax-3 p {
-  color: #00f7ff;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 400;
+  z-index: 50;
 }
 section.module.parallax-3 h5 {
   color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  z-index: 50;
 }
 
 .text-1 {
@@ -299,13 +295,17 @@ section.module.parallax-3 h5 {
 #rodape {
   width: 100%;
   height: auto;
-  background-color: rgba(44, 43, 43, 0);
+  background-color: rgba(248, 3, 3, 0);
   background-size: 100%;
-  color: #ffffff;
   padding: auto;
   text-align: center;
   -webkit-margin-before: auto;
           margin-block-start: auto;
+}
+#rodape h6 {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 /* Final Roda-pé *//*# sourceMappingURL=style.css.map */
