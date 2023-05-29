@@ -22,7 +22,15 @@ body{
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #ffffff;
+  background-image: url(/img/Style11.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Outros navegadores*/
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+
 
 }
 
@@ -280,13 +288,13 @@ section.module.parallax-3{
   background-image: url(/img/Style10.jpg);
   text-align: center;
 h4 {
-  color: #ffffff;
-  font-size: 35px;
+  color: #00f7ff;
+  font-size: 25px;
   font-weight: 400;
   z-index: 50;
 }
 h5{color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   z-index: 50;}
 
